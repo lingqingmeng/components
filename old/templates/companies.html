@@ -1,0 +1,9 @@
+<ul>
+  <li ui-sref-action="selected" ng-repeat="c in complist">
+    <a ui-sref=".detail({ id: c.companyname })">{{c.companyname}}</a>
+  </li>
+</ul>
+
+
+
+<div ui-view="detail"></div>

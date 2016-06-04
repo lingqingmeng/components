@@ -1,0 +1,15 @@
+sql modeling
+
+psql -U postgres
+\c employees
+\dt
+
+companyname usercount pricingbucketId
+1           1000      1
+
+
+
+
+pricingbucket
+id              
+1

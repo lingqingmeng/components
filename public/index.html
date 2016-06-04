@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<script src="libs/angular/angular.min.js"></script>
+		<script src="libs/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+	</head>
+	<body ng-app="myApp">
+		<script src="index.js"></script>
+    <script src="components/main/main.js"></script>
+    <script src="components/main/main.controller.js"></script>
+    <a ui-sref="home">home</a>
+    <a ui-sref="user">user</a>
+    <a ui-sref="article">article</a>
+
+    <div ui-view="header"></div>
+	  <div ui-view="content"></div>
+	  <div ui-view="footer"></div>
+    <hr/>
+    
+	</body>
+</html>

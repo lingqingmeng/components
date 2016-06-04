@@ -1,0 +1,18 @@
+{
+  "name": "copy-writer-swiper",
+  "version": "0.1.0",
+  "description": "Iterable project",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.7",
+    "bootstrap": "~3.3.6",
+    "angular-ui-router": "~0.2.15",
+    "angular-sanitize": "~1.4.7",
+    "underscore": "~1.7.0",
+    "angular-growl-v2": "~0.7.9"
+  },
+  "resolutions": {
+    "angular": "~1.3.x"
+  }
+}
